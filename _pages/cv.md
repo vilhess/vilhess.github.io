@@ -20,16 +20,15 @@ Work experience
 * April 2024 - September 2024: A.I. Research Intern
   * THALES
   * Training-free metric for Neural Architecture Search
-    Completed a research-oriented internship focused on the Neural Tangent Kernel as a training-free metric for Neural Architecture Search. I also worked on search strategies, delving into their            comparisons to enhance neural network optimization techniques.
+  completed a research-oriented internship focused on the Neural Tangent Kernel as a training-free metric for Neural Architecture Search. I also worked on search strategies, delving into their            comparisons to enhance neural network optimization techniques.
 
 * March 2023 - August 2023: A.I. Engineer
   * AZAP
   * Uncertainty Analysis in a Machine Learning Forecasting Approach
-  * Supervisor: Professor Hub
+  Implementation of a machine learning model (Gradient Boosting) to predict sales of promoted products, with a focus on uncertainty analysis
 
 * Summer 2015: Research Assistant
   * Github University
-  * Implementation of a machine learning model (Gradient Boosting) to predict sales of promoted products, with a focus on uncertainty analysis
 
 Publications
 ======
