@@ -25,6 +25,8 @@ Favourite papers
 1. [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 2. [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
 3. [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+4. [Regularized Evolution for Image Classifier Architecture Search](https://arxiv.org/abs/1802.01548)
+5. [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 
 Getting started
 ======
