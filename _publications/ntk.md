@@ -1,7 +1,7 @@
 ---
 title: "Understanding Neural Tangent Kernel: Key Theories and Experimental Insights"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/ntk
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-01-11
