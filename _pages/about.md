@@ -7,13 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am currently pursuing a PhD at the LITIS Lab, INSA Rouen, with a research focus on Time Series Anomaly Detection. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
 
-A data-driven personal website
+My profil
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I am passionate about Artificial Intelligence. In my spare time, I enjoy building state-of-the-art Machine Learning models and exploring the mathematical theories behind them. One of my favorite architectures is the Variational Autoencoder, introduced in the paper [insert reference]. It was a project involving this architecture that inspired me to pursue a PhD, alongside the professional experience I gained during my internships. In addition, I enjoy sharing my knowledge and passion for mathematics by working as a tutor for students.
+
+Sports
+======
+The main sport I pursued as a teenager was cycling, and I participated in numerous national races during my teenage years. I won several department and regional races, including being crowned Department Champion once and [Regional Team Champion](https://www.facebook.com/573518262704708/photos/vilhes-se-r%C3%A9v%C3%A8lesamy-vilhes-vous-connaissiez-comme-beaucoup-vous-avez-appris-%C3%A0-l/998631540193376/) once.
+When I stopped cycling, I transitioned to streetlifting, a strength sport focused on muscle-ups, pull-ups, dips, and squats. I have competed twice in the French Dips Championship and I have been the First Step French Champion of Streetlifting in 2024 in the -80 kg category.
+
+
 
 Getting started
 ======
