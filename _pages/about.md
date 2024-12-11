@@ -34,7 +34,7 @@ I am passionate about Artificial Intelligence. In my spare time, I enjoy buildin
 Sports
 ======
 The main sport I pursued as a teenager was cycling, and I participated in numerous national races during my teenage years. I won several department and regional races, including being crowned Department Champion once and [Regional Team Champion](https://www.facebook.com/573518262704708/photos/vilhes-se-r%C3%A9v%C3%A8lesamy-vilhes-vous-connaissiez-comme-beaucoup-vous-avez-appris-%C3%A0-l/998631540193376/) once.
-When I stopped cycling, I transitioned to streetlifting, a strength sport focused on muscle-ups, pull-ups, dips, and squats. I have competed twice in the French Dips Championship and I have been the First Step French Champion of Streetlifting in 2024 in the -80 kg category. I have also worked as a trainer, helping athletes reach higher levels by providing them with tailored programs and weekly progress tracking.
+When I stopped cycling, I transitioned to streetlifting, a strength sport focused on muscle-ups, pull-ups, dips, and squats. I have competed twice in the French Dips Championship and I have been the (First Step French Champion of Streetlifting in 2024)[https://www.instagram.com/p/C4iBlPwo76L/?img_index=5] in the -80 kg category. I have also worked as a trainer, helping athletes reach higher levels by providing them with tailored programs and weekly progress tracking.
 
 Getting started
 ======
