@@ -9,7 +9,7 @@ redirect_from:
 
 I am currently pursuing a PhD at the LITIS Lab, INSA Rouen, with a research focus on Time Series Anomaly Detection. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
 
-My profil
+Me Myself & I
 ======
 
 I am passionate about Artificial Intelligence. In my spare time, I enjoy building state-of-the-art Machine Learning models and exploring the mathematical theories behind them. One of my favorite architectures is the Variational Autoencoder, introduced in the paper [insert reference]. It was a project involving this architecture that inspired me to pursue a PhD, alongside the professional experience I gained during my internships. In addition, I enjoy sharing my knowledge and passion for mathematics by working as a tutor for students.
