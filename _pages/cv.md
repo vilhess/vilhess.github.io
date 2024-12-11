@@ -11,35 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
+* Ph.D in Time Series Anomaly Detection (expected)
+* M.S. in Mathematics & Artificial Intelligence, Paris-Saclay University, 2022-2024
+* B.S. in Mathematics, Paris-Saclay University, 2019-2022
+  
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* April 2024 - September 2024: A.I. Research Intern
+  * THALES
+  * Training-free metric for Neural Architecture Search
+    Completed a research-oriented internship focused on the Neural Tangent Kernel as a training-free metric for Neural Architecture Search. I also worked on search strategies, delving into their            comparisons to enhance neural network optimization techniques.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
+* March 2023 - August 2023: A.I. Engineer
+  * AZAP
+  * Uncertainty Analysis in a Machine Learning Forecasting Approach
   * Supervisor: Professor Hub
 
 * Summer 2015: Research Assistant
   * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+  * Implementation of a machine learning model (Gradient Boosting) to predict sales of promoted products, with a focus on uncertainty analysis
 
 Publications
 ======
