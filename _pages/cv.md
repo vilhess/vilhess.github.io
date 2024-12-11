@@ -27,6 +27,11 @@ Education
   * *Uncertainty Analysis in a Machine Learning Forecasting Approach*  
     Developed and implemented a machine learning model using Gradient Boosting to predict sales of promoted products. The project emphasized uncertainty analysis to enhance forecasting reliability.
 
+* **2021 - Present: Math Tutor**  
+  * **France**  
+  * *Private Mathematics Tutor*  
+    Provide personalized mathematics classes to students, helping them strengthen their understanding and improve their academic performance.
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
