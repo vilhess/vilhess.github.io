@@ -7,12 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing a PhD at the LITIS Lab, INSA Rouen, with a research focus on Time Series Anomaly Detection. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
+I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research focus on Time Series Anomaly Detection. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
 
 Me, Myself & Maths
 ======
 
-I am passionate about Artificial Intelligence. In my spare time, I enjoy building state-of-the-art Machine Learning models and exploring the mathematical theories behind them. One of my favorite architectures is the Variational Autoencoder, introduced in the paper [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114). I love this architecture because VAEs combine Bayesian Inference with Deep Learning.It was a project involving this architecture that inspired me to pursue a PhD, alongside the professional experience I gained during my internships. In addition, I enjoy sharing my knowledge and passion for mathematics by working as a tutor for students. 
+I am passionate about Artificial Intelligence. In my spare time, I enjoy building state-of-the-art Machine Learning models and exploring the mathematical theories behind them. One of my favorite architectures is the Variational Autoencoder, introduced in the paper [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114). I love this architecture because VAEs combine Bayesian Inference with Deep Learning.It was a project involving this architecture that inspired me to pursue a Ph.D, alongside the professional experience I gained during my internships. In addition, I enjoy sharing my knowledge and passion for mathematics by working as a tutor for students. 
 
 # Favourite Papers
 
