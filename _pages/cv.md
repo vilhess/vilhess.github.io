@@ -22,7 +22,7 @@ Education
   * *Training-Free Metric for Neural Architecture Search*  
     Conducted a research-oriented internship exploring the Neural Tangent Kernel as a training-free metric for Neural Architecture Search. Additionally, I investigated and compared various search strategies to optimize neural network performance effectively.
 
-* **March 2023 - August 2023: A.I. Engineer**  
+* **March 2023 - August 2023: A.I. Engineer Intern**  
   * **AZAP**  
   * *Uncertainty Analysis in a Machine Learning Forecasting Approach*  
     Developed and implemented a machine learning model using Gradient Boosting to predict sales of promoted products. The project emphasized uncertainty analysis to enhance forecasting reliability.
