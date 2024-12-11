@@ -3,7 +3,7 @@ title: "The Theory behinds Denoising Diffusion Probabilistic Models"
 collection: publications
 category: manuscripts
 permalink: /publication/ddpm
-date: 2024
+date: 2024-01-01
 paperurl: 'http://academicpages.github.io/files/ddpm.pdf'
 citation: 'VILHES Samy. (2024). &quot;The Theory behinds Denoising Diffusion Probabilistic Models.&quot;.'
 ---
