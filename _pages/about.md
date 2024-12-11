@@ -9,15 +9,15 @@ redirect_from:
 
 I am currently pursuing a PhD at the LITIS Lab, INSA Rouen, with a research focus on Time Series Anomaly Detection. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
 
-Me Myself & I
+Me, Myself & I
 ======
 
-I am passionate about Artificial Intelligence. In my spare time, I enjoy building state-of-the-art Machine Learning models and exploring the mathematical theories behind them. One of my favorite architectures is the Variational Autoencoder, introduced in the paper [insert reference]. It was a project involving this architecture that inspired me to pursue a PhD, alongside the professional experience I gained during my internships. In addition, I enjoy sharing my knowledge and passion for mathematics by working as a tutor for students.
+I am passionate about Artificial Intelligence. In my spare time, I enjoy building state-of-the-art Machine Learning models and exploring the mathematical theories behind them. One of my favorite architectures is the Variational Autoencoder, introduced in the paper [insert reference]. It was a project involving this architecture that inspired me to pursue a PhD, alongside the professional experience I gained during my internships. In addition, I enjoy sharing my knowledge and passion for mathematics by working as a tutor for students. 
 
 Sports
 ======
 The main sport I pursued as a teenager was cycling, and I participated in numerous national races during my teenage years. I won several department and regional races, including being crowned Department Champion once and [Regional Team Champion](https://www.facebook.com/573518262704708/photos/vilhes-se-r%C3%A9v%C3%A8lesamy-vilhes-vous-connaissiez-comme-beaucoup-vous-avez-appris-%C3%A0-l/998631540193376/) once.
-When I stopped cycling, I transitioned to streetlifting, a strength sport focused on muscle-ups, pull-ups, dips, and squats. I have competed twice in the French Dips Championship and I have been the First Step French Champion of Streetlifting in 2024 in the -80 kg category.
+When I stopped cycling, I transitioned to streetlifting, a strength sport focused on muscle-ups, pull-ups, dips, and squats. I have competed twice in the French Dips Championship and I have been the First Step French Champion of Streetlifting in 2024 in the -80 kg category. I have also worked as a trainer, helping athletes reach higher levels by providing them with tailored programs and weekly progress tracking.
 
 
 
