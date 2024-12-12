@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+======
+
 Education
 ======
 * Ph.D in Time Series Anomaly Detection (expected)
