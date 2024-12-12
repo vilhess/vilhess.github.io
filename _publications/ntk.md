@@ -25,4 +25,4 @@ namics. Notably, in the case of an
 infinitely wide ANN (when H → ∞
 in Fig. 1), the NTK becomes deter-
 ministic at initialization, remains constant during training, and the network’s behavior converges to kernel regression, with the NTK serving as the kernel. The theoretical foundation of NTK relies on the understanding that an infinitely wide ANN behaves like a Gaussian process.
-The code is available in my [github repo]h(ttps://github.com/vilhess/NTK)
+The code is available in my [GitHub repo](https://github.com/vilhess/NTK)
