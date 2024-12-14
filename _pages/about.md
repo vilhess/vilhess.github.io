@@ -17,7 +17,7 @@ I am passionate about Artificial Intelligence. In my spare time, I enjoy buildin
 # Favourite Papers
 
 1. [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)  
-   Obviously, it holds the first position. Without it, I am nothing, and because of it, I am everything.
+   Obviously, it holds the first position. 
 
 2. [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)  
    Infinitely wide neural networks behave like kernel regression, and their training dynamics can be analyzed through their corresponding kernels. I appreciate this paper because it provides a solid theoretical foundation for wide neural networks, supported by extensive mathematics.
