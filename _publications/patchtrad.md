@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/ntk
 excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-01-11
+date: 2025-13-03
 venue: 'HAL Open Science'
 paperurl: 'https://normandie-univ.hal.science/hal-05027791v1/document'
 citation: 'Samy-Melwan Vilhes, GILLES Gasso, Mokhtar Z. Alaya  (2025). &quot;PatchTrAD: A Patch-Based Transformer focusing on Patch-Wise Reconstruction Error for Time Series Anomaly Detection.&quot; <i>HAL Open Science</i>.'
