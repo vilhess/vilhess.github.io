@@ -12,7 +12,7 @@ I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research foc
 Me, Myself & Maths
 ======
 
-I am passionate about Artificial Intelligence. In my spare time, I enjoy building state-of-the-art Machine Learning models and exploring the mathematical theories behind them. One of my favorite architectures is the Variational Autoencoder, introduced in the paper [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114). I love this architecture because VAEs combine Bayesian Inference with Deep Learning.It was a project involving this architecture that inspired me to pursue a Ph.D, alongside the professional experience I gained during my internships. In addition, I enjoy sharing my knowledge and passion for mathematics by working as a tutor for students. 
+I am passionate about Artificial Intelligence. In my spare time, I enjoy building state-of-the-art Machine Learning models and exploring the mathematical theories behind them. One of my favorite architectures is the Variational Autoencoder, introduced in the paper [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114). I’m particularly drawn to VAEs because they elegantly combine Bayesian inference with deep learning. Working on a project involving this architecture was a turning point, it sparked my desire to pursue a Ph.D, further reinforced by the professional experience I gained during my internships. In addition, I enjoy sharing my knowledge and passion for mathematics by working as a tutor for students. 
 
 # Favourite Papers
 
