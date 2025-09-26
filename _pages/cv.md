@@ -11,10 +11,25 @@ redirect_from:
 
 <br>
 
+⭐️ News
+======
+
+* 09-2025 - Participated in the [EUSIPCO 2025](https://eusipco2025.org) conference presenting my paper PatchTrAD in a 15-minute talk.
+The slides can be found [here](https://github.com/vilhess/PatchTrAD/tree/main/files/presentation.pdf).
+
+* 07-2025 - Participated in the [Hi! Paris Summer School 2025](https://www.hi-paris.fr) presenting my paper PatchTrAD in a poster session.
+The poster can be found [here](https://github.com/vilhess/PatchTrAD/tree/main/files/poster.pdf).
+
+* 05-2025 - [PatchTrAD](https://arxiv.org/abs/2504.08827) has been accepted at EUSIPCO 2025.
+
+
 Education
 ======
-* Ph.D in Time Series Anomaly Detection (expected)
-* M.S. in Mathematics & Artificial Intelligence, Paris-Saclay University, 2022-2024
+* Ph.D in Time Series Anomaly Detection (expected): Conducting research on deep learning for time series, with focus on anomaly detection, forecasting, and the development of foundation models.
+
+* M.S. in Mathematics & Artificial Intelligence, Paris-Saclay University, 2022-2024.
+Coursework: Machine Learning (supervised, unsupervised, deep learning, reinforcement learning), Statistical Learning, High-Dimensional Modeling, Graphical Models, Optimization (incl. for CV), Big Data Systems (SQL, HDFS, MongoDB), Online Learning, Conformal Prediction, Data Challenge.
+
 * B.S. in Mathematics, Paris-Saclay University, 2019-2022
   
 # Work Experience

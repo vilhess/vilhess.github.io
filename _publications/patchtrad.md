@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/patchtrad
 date: 2025-03-13
 venue: 'EUSIPCO 2025'
-paperurl: 'https://normandie-univ.hal.science/hal-05027791v1/document'
+paperurl: 'https://arxiv.org/abs/2504.08827'
 citation: 'Samy-Melwan Vilhes, GILLES Gasso, Mokhtar Z. Alaya  (2025). &quot;PatchTrAD: A Patch-Based Transformer focusing on Patch-Wise Reconstruction Error for Time Series Anomaly Detection.&quot; <i>EUSIPCO 2025</i>.'
 ---
 
