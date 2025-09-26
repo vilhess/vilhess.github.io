@@ -34,14 +34,14 @@ I am passionate about Artificial Intelligence. In my spare time, I enjoy buildin
 2. [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)  
    Infinitely wide neural networks behave like kernel regression, and their training dynamics can be analyzed through their corresponding kernels. I appreciate this paper because it provides a solid theoretical foundation for wide neural networks, supported by extensive mathematics.
 
-3. [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)  
+3. [PatchTST: A Time Series is Worth 64 Words: Long-term Forecasting with Transformers](https://arxiv.org/pdf/2211.14730)  
+   This paper proposes a powerful Transformer architecture for time series forecasting by dividing sequences into patches, analogous to tokens in LLMs. Following its publication, the patch-based paradigm gained significant attention in time series modeling. This approach enables training time series models with architectures closely aligned to those used in LLMs.
+
+4. [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)  
    I really appreciate this paper; the Bayesian inference theory underpinning diffusion models is both fascinating and enjoyable to understand.
 
-4. [Regularized Evolution for Image Classifier Architecture Search](https://arxiv.org/abs/1802.01548)  
-   This paper employs a simple evolutionary algorithm to discover highly effective architectures for image classification. The underlying intuition is straightforward, yet it proves to be an incredibly powerful strategy.
-
-5. [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)  
-   I was torn between this paper and the original Transformer paper, but since the U-Net was one of the first architectures I worked with, I ranked it in 5th position.
+5. [Regularized Evolution for Image Classifier Architecture Search](https://arxiv.org/abs/1802.01548)  
+   I was torn between this paper and the original Transformer paper. This paper employs a simple evolutionary algorithm to discover highly effective architectures for image classification. The underlying intuition is straightforward, yet it proves to be an incredibly powerful strategy.
 
 Sports 🚴🏼
 ======
