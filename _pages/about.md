@@ -7,7 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research focus on Time Series Anomaly Detection. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
+I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research focus on time series for anomaly detection, forecasting and the development of foundation models. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
+
+
+⭐️ News
+======
+
+* 09-2025 - Participated in the [EUSIPCO 2025](https://eusipco2025.org) conference presenting my paper PatchTrAD in a 15-minute talk.
+The slides can be found [here](https://github.com/vilhess/PatchTrAD/tree/main/files/presentation.pdf).
+
+* 07-2025 - Participated in the [Hi! Paris Summer School 2025](https://www.hi-paris.fr) presenting my paper PatchTrAD in a poster session.
+The poster can be found [here](https://github.com/vilhess/PatchTrAD/tree/main/files/poster.pdf).
+
+* 05-2025 - [PatchTrAD](https://arxiv.org/abs/2504.08827) has been accepted at EUSIPCO 2025.
 
 Me, Myself & Maths 🔢
 ======
@@ -35,7 +47,3 @@ Sports 🚴🏼
 ======
 The main sport I pursued as a teenager was cycling, and I participated in numerous national races during my teenage years. I won several department and regional races, including being crowned Department Champion once and [Regional Team Champion](https://www.facebook.com/573518262704708/photos/vilhes-se-r%C3%A9v%C3%A8lesamy-vilhes-vous-connaissiez-comme-beaucoup-vous-avez-appris-%C3%A0-l/998631540193376/) once.
 When I stopped cycling, I transitioned to streetlifting, a strength sport focused on muscle-ups, pull-ups, dips, and squats. I have competed twice in the French Dips Championship and I have been the [First Step French Champion of Streetlifting in 2024](https://www.instagram.com/p/C4iBlPwo76L/?img_index=5) in the -80 kg category. I have also worked as a trainer, helping athletes reach higher levels by providing them with tailored programs and weekly progress tracking.
-
-News ⭐
-======
-1. My paper "PatchTrAD: A Patch-Based Transformer focusing on Patch-Wise Reconstruction Error for Time Series Anomaly Detection" has been accepted at [EUSIPCO 2025](https://eusipco2025.org/). I will present it in September 2025.
