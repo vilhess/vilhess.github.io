@@ -10,7 +10,7 @@ redirect_from:
 I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research focus on time series for anomaly detection, forecasting and the development of foundation models. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
 
 
-⭐️ News
+News ⭐️
 ======
 
 * 09-2025 - Participated in the [EUSIPCO 2025](https://eusipco2025.org) conference presenting my paper PatchTrAD in a 15-minute talk.
