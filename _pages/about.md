@@ -13,6 +13,8 @@ I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research foc
 News ⭐️
 ======
 
+* 10-2025 - Completed the [Deep Learning Optimisé sur Jean Zay](http://www.idris.fr/formations/dlo-jz/) program, focusing on cutting-edge techniques for optimizing deep learning models on HPC infrastructure using PyTorch. Gained hands-on experience with multi-GPU and multi-node training, from standard Distributed Data Parallel (DDP) to advanced 4-D parallelism, as well as mixed-precision training, large-batch strategies, communication optimization, and performance profiling.
+
 * 10-2025 - Participated in the [Fête de la Science de Rouen 2025](https://www.fetedelascience.fr/village-des-sciences-de-rouen-le-madrillet-2025) 
 where I developed an interactive game that challenges players to predict future signal values and compete against a zero-shot forecasting model I designed: [PatchFM](https://github.com/vilhess/PatchFM). The objective is simple — beat the model by making more accurate predictions.
 The game code is available [here](https://github.com/vilhess/PatchFM-FDS25).
