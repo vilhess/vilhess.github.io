@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research focus on time series for anomaly detection, forecasting and the development of foundation models. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
+I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research focus on time series anomaly detection, forecasting and the development of foundation models for zero-shot forecasting. I have a strong background in Mathematics, with a Bachelor's degree in Mathematics from Paris-Saclay University and a Master's degree in Mathematics and Artificial Intelligence from the same institution.
 
 
 News ⭐️
 ======
 
-* 10-2025 - Completed the [Deep Learning Optimisé sur Jean Zay](http://www.idris.fr/formations/dlo-jz/) program, focusing on cutting-edge techniques for optimizing deep learning models on HPC infrastructure using PyTorch. Gained hands-on experience with multi-GPU and multi-node training, from standard Distributed Data Parallel (DDP) to advanced 4-D parallelism, as well as mixed-precision training, large-batch strategies, communication optimization, and performance profiling.
+* 10-2025 - Completed the [Deep Learning Optimisé sur Jean Zay](http://www.idris.fr/formations/dlo-jz/) program, focusing on cutting-edge techniques for optimizing deep learning models on HPC infrastructure using PyTorch. Gained hands-on experience and knowledge with multi-GPU and multi-node training, from standard Distributed Data Parallel (DDP) to advanced 4-D parallelism, as well as mixed-precision training, large-batch strategies, communication optimization, and performance profiling.
 
 * 10-2025 - Participated in the [Fête de la Science de Rouen 2025](https://www.fetedelascience.fr/village-des-sciences-de-rouen-le-madrillet-2025) 
 where I developed an interactive game that challenges players to predict future signal values and compete against a zero-shot forecasting model I designed: [PatchFM](https://github.com/vilhess/PatchFM). The objective is simple — beat the model by making more accurate predictions.

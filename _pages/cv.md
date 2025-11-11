@@ -14,7 +14,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Time Series Anomaly Detection (expected): Conducting research on deep learning for time series, with focus on anomaly detection, forecasting, and the development of foundation models.
+* Ph.D in Time Series Anomaly Detection (expected): Conducting research on deep learning for time series, with focus on anomaly detection, forecasting, and the development of foundation models for zero-shot forecasting.
 
 * M.S. in Mathematics & Artificial Intelligence, Paris-Saclay University, 2022-2024.
 Coursework: Machine Learning (supervised, unsupervised, deep learning, reinforcement learning), Statistical Learning, High-Dimensional Modeling, Graphical Models, Optimization (incl. for CV), Big Data Systems (SQL, HDFS, MongoDB), Online Learning, Conformal Prediction, Data Challenge.
