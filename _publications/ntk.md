@@ -6,7 +6,7 @@ permalink: /publication/ntk
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-01-11
 venue: 'HAL Open Science'
-paperurl: 'https://normandie-univ.hal.science/hal-04784111v1/document'
+paperurl: 'https://normandie-univ.hal.science/hal-04784111v3/document'
 ---
 
 Artificial Neural Networks (ANNs)
