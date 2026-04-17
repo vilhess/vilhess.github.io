@@ -15,7 +15,6 @@ redirect_from:
 Education
 ======
 * Ph.D in Time Series Anomaly Detection (expected): Conducting research on deep learning for time series, with focus on anomaly detection, forecasting, and the development of foundation models for zero-shot forecasting.
-
 Teaching Assistant for the course Data Analysis at INSA Rouen. Covered topics including unsupervised learning, Principal Component Analysis, and Correspondence Analysis. Designed and evaluated student projects in data analysis and signal processing.
 
 
