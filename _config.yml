@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "VILHES Samy-Melwan"
+title                    : "Samy-Melwan Vilhes"
 title_separator          : "-"
-name                     : &name "VILHES Samy-Melwan"
+name                     : &name "Samy-Melwan Vilhes"
 description              : &description "Ph.D Student @LITIS-Lab INSA ROUEN"
 url                      : https://vilhess.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "vilhess.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "VILHES Samy-Melwan"
+  name             : "Samy-Melwan Vilhes"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D Student @LITIS-LAB"
   location         : "Paris"

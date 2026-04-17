@@ -6,7 +6,6 @@ permalink: /publication/adcontrol
 venue: 'Open Science'
 date: 2024-09-01
 paperurl: 'http://vilhess.github.io/files/ADcontrol.pdf'
-citation: 'VILHES Samy. (2024). &quot;A control of the false anomaly rate for Anomaly Detections problems on Images.&quot;<i>Open Science</i>.'
 ---
 
 This paper summarizes the initial stages of my thesis research. We focus in a first step on anomaly detection algorithms for image data. 
