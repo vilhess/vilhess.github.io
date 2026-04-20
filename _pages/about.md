@@ -13,7 +13,7 @@ I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research foc
 News ⭐️
 ======
 
-* 03-2026 - [Does Normalization Choice Matter for Causal Large Time-Series Models?](https://openreview.net/pdf?id=lMNWBnFHxt) has been accepted at ICLR 2026 "Time Series in the Age of Large Models" Workshop. It has been selected as a ⭐️spotlight⭐️ paper among few papers.
+* 03-2026 - [Does Normalization Choice Matter for Causal Large Time-Series Models?](https://openreview.net/pdf?id=lMNWBnFHxt) has been accepted at ICLR 2026 **Workshop** "Time Series in the Age of Large Models" . It has been selected as a ⭐️spotlight⭐️ paper among few papers.
 
 * 10-2025 - Completed the [Deep Learning Optimisé sur Jean Zay](http://www.idris.fr/formations/dlo-jz/) program, focusing on cutting-edge techniques for optimizing deep learning models on HPC infrastructure using PyTorch. Gained hands-on experience and knowledge with multi-GPU and multi-node training, from standard Distributed Data Parallel (DDP) to advanced 4-D parallelism, as well as mixed-precision training, large-batch strategies, communication optimization, and performance profiling.
 
