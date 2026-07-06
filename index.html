@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samy-Melwan Vilhes</title>
+  <meta name="description" content="Samy-Melwan Vilhes — Ph.D student at LITIS Lab, INSA Rouen. Time series anomaly detection, forecasting, and foundation models for zero-shot forecasting." />
+  <meta name="author" content="Samy-Melwan Vilhes" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Samy-Melwan Vilhes" />
+  <meta property="og:description" content="Ph.D student · time series anomaly detection · LITIS Lab, INSA Rouen." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,320;6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔎</text></svg>" />
+</head>
+<body>
+  <div class="wrap" id="top">
+
+    <header class="masthead">
+      <h1>Samy-Melwan Vilhes</h1>
+      <p class="masthead__role">Ph.D student<br />
+      time series anomaly detection · time series forecasting · foundation models<br />
+      LITIS Lab, INSA Rouen</p>
+      <nav class="masthead__nav">
+        <a href="#about">About</a>
+        <a href="#patchfm">PatchFM</a>
+        <a href="#news">News</a>
+        <a href="#research">Research</a>
+        <a href="#sports">Sports</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="section prose" id="about">
+      <h2>About</h2>
+      <p>
+        I am currently pursuing a Ph.D at the LITIS Lab, INSA Rouen, with a research focus
+        on time series anomaly detection, forecasting, and the development of
+        foundation models for zero-shot forecasting.
+      </p>
+      <p>
+        I have a strong background in Mathematics, with a Bachelor's degree in
+        Mathematics from Paris-Saclay University and a Master's degree in Mathematics and
+        Artificial Intelligence from the same institution.
+      </p>
+    </section>
+
+    <!-- FOUNDATION MODEL -->
+    <section class="section" id="patchfm">
+      <h2>PatchFM · Foundation Model</h2>
+      <p class="prose">
+        <a href="https://github.com/vilhess/PatchFM" target="_blank" rel="noopener">PatchFM</a> —
+        my patch-based foundation model for zero-shot time series forecasting
+        with quantile predictions (<a href="https://github.com/vilhess/PatchFM/blob/main/assets/modelcard.pdf" target="_blank" rel="noopener">model card</a>).
+      </p>
+      <pre class="code"><code><span class="c-op">!</span>pip install patchfm
+<span class="c-k">from</span> patchfm <span class="c-k">import</span> Forecaster, PatchFMConfig
+model = <span class="c-fn">Forecaster</span>(<span class="c-fn">PatchFMConfig</span>())  <span class="c-c"># pretrained, from HF Hub</span>
+seq = torch.<span class="c-fn">randn</span>(batch_size, context_size)
+median, quantiles = <span class="c-fn">model</span>(seq, forecast_horizon=<span class="c-num">64</span>)</code></pre>
+    </section>
+
+    <!-- NEWS -->
+    <section class="section" id="news">
+      <h2>News</h2>
+      <ul class="news">
+        <li>
+          <time>2026</time>
+          <div><a href="https://arxiv.org/abs/2606.09954" target="_blank" rel="noopener">Does Normalization Choice Matter for Causal Large Time-Series Models?</a> accepted at the ICLR 2026 Workshop “Time Series in the Age of Large Models” — selected as a spotlight paper.</div>
+        </li>
+        <li>
+          <time>2025</time>
+          <div>Completed the <a href="http://www.idris.fr/docs/formations/ia/formation-dlojz/" target="_blank" rel="noopener">Deep Learning Optimisé sur Jean Zay</a> program — multi-GPU / multi-node training, from DDP to 4-D parallelism, mixed precision, large-batch strategies and performance profiling on HPC.</div>
+        </li>
+        <li>
+          <time>2025</time>
+          <div><a href="https://arxiv.org/abs/2504.08827" target="_blank" rel="noopener">PatchTrAD</a> accepted at <a href="https://eusipco2025.org" target="_blank" rel="noopener">EUSIPCO 2025</a> and presented in a 15-minute talk (<a href="files/pres_patchtrad.pdf" target="_blank" rel="noopener">slides</a>).</div>
+        </li>
+        <li>
+          <time>2025</time>
+          <div>Poster session at the <a href="https://www.hi-paris.fr" target="_blank" rel="noopener">Hi! Paris Summer School 2025</a> presenting PatchTrAD (<a href="files/poster.pdf" target="_blank" rel="noopener">poster</a>).</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section" id="research">
+      <h2>Research &amp; Writing</h2>
+      <div class="pubs" id="pubs"><!-- injected by JS --></div>
+    </section>
+
+    <!-- SPORTS -->
+    <section class="section beyond prose" id="sports">
+      <h2>Sports</h2>
+      <p>
+        The main sport I pursued as a teenager was cycling, competing in numerous national
+        races. I won several departmental and regional races, including being crowned
+        Department Champion once and
+        <a href="https://www.facebook.com/573518262704708/photos/vilhes-se-r%C3%A9v%C3%A8lesamy-vilhes-vous-connaissiez-comme-beaucoup-vous-avez-appris-%C3%A0-l/998631540193376/" target="_blank" rel="noopener">Regional Team Champion</a> once.
+      </p>
+      <p>
+        After stepping away from cycling, I transitioned to streetlifting — a strength sport
+        focused on muscle-ups, pull-ups, dips, and squats. I have competed twice in the French
+        Dips Championship and was crowned
+        <a href="https://www.instagram.com/p/C4iBlPwo76L/?img_index=5" target="_blank" rel="noopener">First Step French Champion of Streetlifting in 2024</a>
+        in the −80 kg category. I have also worked as a trainer, helping athletes reach higher
+        levels through tailored programs and weekly progress tracking.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li><span class="label">Email</span><a href="mailto:samy-melwan.vilhes@insa-rouen.fr">samy-melwan.vilhes@insa-rouen.fr</a></li>
+        <li><span class="label">GitHub</span><a href="https://github.com/vilhess" target="_blank" rel="noopener"><img class="gh-avatar" src="files/github_pic.jpg" alt="" loading="lazy" />@vilhess</a></li>
+        <li><span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/samy-melwan-vilhes-832346238" target="_blank" rel="noopener">Samy-Melwan Vilhes</a></li>
+        <li><span class="label">Scholar</span><a href="https://scholar.google.com/citations?user=H3Di-HoAAAAJ&hl=fr" target="_blank" rel="noopener">Google Scholar</a></li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      © <span id="year"></span> Samy-Melwan Vilhes
+    </footer>
+
+  </div>
+  <script src="assets/main.js"></script>
+</body>
+</html>

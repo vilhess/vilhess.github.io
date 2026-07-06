@@ -1,0 +1,285 @@
+/* =========================================================
+   Samy-Melwan Vilhes — minimalist theme
+   One column. Quiet type. Nothing that isn't earning its place.
+   ========================================================= */
+
+:root {
+  --bg:     #ffffff;
+  --ink:    #1d1d1b;
+  --muted:  #74726c;
+  --faint:  #a6a49d;
+  --line:   #ececec;
+  --accent: #9a4226;
+  --measure: 40rem;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --mono:  ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 2rem; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.18rem;
+  line-height: 1.72;
+  font-weight: 380;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: clamp(2.5rem, 8vw, 5rem) 1.5rem 5rem;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 2px; }
+strong { font-weight: 600; }
+em { font-style: italic; }
+
+/* ---------------- Masthead ---------------- */
+.masthead { margin-bottom: 3.5rem; }
+.masthead__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.masthead h1 {
+  font-size: clamp(1.9rem, 6vw, 2.6rem);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+}
+.masthead__role {
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+.masthead__nav {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  font-size: 0.95rem;
+}
+.masthead__nav a { color: var(--muted); }
+.masthead__nav a:hover { color: var(--accent); text-decoration: none; }
+.masthead__nav a[aria-current] { color: var(--ink); }
+
+.theme-toggle {
+  flex: none;
+  background: none;
+  border: none;
+  color: var(--faint);
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0.2rem;
+  transition: color 0.2s;
+}
+.theme-toggle:hover { color: var(--accent); }
+.theme-toggle .icon-moon { display: none; }
+:root[data-theme="dark"] .icon-sun { display: none; }
+:root[data-theme="dark"] .icon-moon { display: inline; }
+
+/* ---------------- Sections ---------------- */
+.section { margin-top: 3.5rem; }
+.section > h2 {
+  font-size: 0.82rem;
+  font-family: var(--mono);
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-bottom: 1.4rem;
+}
+
+.prose p { margin-bottom: 1.1rem; }
+.prose p:last-child { margin-bottom: 0; }
+
+/* ---------------- News ---------------- */
+.news { list-style: none; }
+.news li {
+  display: flex;
+  gap: 1.2rem;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--line);
+}
+.news li:first-child { border-top: none; }
+.news time {
+  flex: none;
+  width: 5.5rem;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--faint);
+  padding-top: 0.45rem;
+}
+.news div { color: var(--ink); }
+
+/* ---------------- Publications ---------------- */
+.pubs { display: flex; flex-direction: column; gap: 1.8rem; }
+.pub__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.pub__title a { color: var(--ink); }
+.pub__title a:hover { color: var(--accent); }
+.pub__meta {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  color: var(--faint);
+  margin-top: 0.35rem;
+}
+.pub__meta a { color: var(--muted); }
+.pub__spot { color: var(--accent); }
+.pub__desc {
+  color: var(--muted);
+  font-size: 1.02rem;
+  margin-top: 0.55rem;
+}
+
+/* ---------------- PatchFM / code ---------------- */
+pre.code {
+  background: #f8f7f4;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem;
+  overflow-x: auto;
+  margin-top: 0.9rem;
+}
+pre.code code {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--ink);
+  white-space: pre;
+}
+code { font-family: var(--mono); }
+.c-k  { color: #9a4226; }              /* keyword  */
+.c-fn { color: #0f766e; }              /* function / class */
+.c-num{ color: #8a5a00; }              /* number   */
+.c-op { color: #9a4226; font-weight: 600; }
+.c-c  { color: #8a877d; font-style: italic; }
+
+/* ---------------- Beyond ---------------- */
+.beyond h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 2rem 0 0.6rem;
+}
+.beyond h3:first-child { margin-top: 0; }
+.beyond p { color: var(--ink); margin-bottom: 0.9rem; }
+
+.faves { list-style: none; margin-top: 0.5rem; }
+.faves li { padding: 0.9rem 0; border-top: 1px solid var(--line); }
+.faves a { color: var(--ink); font-weight: 500; }
+.faves a:hover { color: var(--accent); }
+.faves p { color: var(--muted); font-size: 1.0rem; margin-top: 0.2rem; }
+
+/* ---------------- Contact ---------------- */
+.contact-list { list-style: none; }
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem 0;
+}
+.contact-list .label {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+  width: 5.5rem;
+  flex: none;
+}
+.gh-avatar {
+  width: 22px; height: 22px; border-radius: 50%;
+  object-fit: cover; border: 1px solid var(--line);
+  vertical-align: middle; margin-right: 0.4rem;
+}
+
+/* ---------------- Footer ---------------- */
+.footer {
+  margin-top: 4rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+  color: var(--faint);
+}
+
+/* ---------------- CV page ---------------- */
+.cv-back { font-size: 0.9rem; color: var(--muted); }
+.cv-actions { margin: 1.6rem 0 0; }
+.cv-print {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  background: none;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+.cv-print:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+.cv-block { margin-top: 3rem; }
+.cv-block > h2 {
+  font-size: 0.82rem;
+  font-family: var(--mono);
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin: 0 0 1.4rem;
+}
+.cv-entry { margin-bottom: 1.7rem; }
+.cv-entry__head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+}
+.cv-entry h3 { font-size: 1.2rem; font-weight: 500; line-height: 1.3; }
+.cv-entry .cv-date {
+  flex: none;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--faint);
+  white-space: nowrap;
+}
+.cv-entry .cv-org { color: var(--accent); font-size: 1rem; }
+.cv-entry p { color: var(--muted); font-size: 1.02rem; margin-top: 0.35rem; }
+.cv-entry ul { margin-top: 0.4rem; padding-left: 1.1rem; color: var(--muted); font-size: 1.0rem; }
+.cv-entry ul li { margin-bottom: 0.35rem; }
+.cv-sub {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--line);
+}
+.cv-sub strong { color: var(--ink); }
+.cv-sub p { margin-top: 0.2rem; }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+@media (max-width: 520px) {
+  .news li { flex-direction: column; gap: 0.15rem; }
+  .news time { padding-top: 0; }
+  .cv-entry__head { flex-direction: column; }
+}
+
+/* ---------------- Print ---------------- */
+@media print {
+  .masthead__nav, .theme-toggle, .cv-actions, .footer, .cv-back { display: none !important; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .wrap { padding: 0; max-width: 100%; }
+  a { color: #000; }
+  .cv-entry, .cv-block { break-inside: avoid; }
+}
