@@ -163,6 +163,29 @@ code { font-family: var(--mono); }
 .c-num{ color: #8a5a00; }              /* number   */
 .c-op { color: #9a4226; font-weight: 600; }
 .c-c  { color: #8a877d; font-style: italic; }
+.usage { margin-top: 0.7rem; }
+.usage summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.usage summary::-webkit-details-marker { display: none; }
+.usage summary::before {
+  content: "\25B8";
+  color: var(--accent);
+  display: inline-block;
+  transition: transform 0.2s;
+}
+.usage[open] summary::before { transform: rotate(90deg); }
+.usage summary:hover { color: var(--accent); }
+.usage pre.code { margin-top: 0.55rem; }
 
 /* ---------------- Beyond ---------------- */
 .beyond h3 {
