@@ -56,16 +56,23 @@ em { font-style: italic; }
   .masthead__photo { width: 92px; height: 92px; border-radius: 12px; }
 }
 .masthead h1 {
-  font-size: clamp(1.9rem, 6vw, 2.6rem);
+  font-size: clamp(2.1rem, 6vw, 3rem);
   font-weight: 500;
   letter-spacing: -0.015em;
-  line-height: 1.1;
+  line-height: 1.08;
 }
 .masthead__role {
-  color: var(--muted);
-  font-size: 1.05rem;
-  margin-top: 0.6rem;
+  margin-top: 0.7rem;
   line-height: 1.5;
+}
+.role-main {
+  font-size: 1.18rem;
+  color: var(--ink);
+}
+.role-kw {
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.7;
 }
 .masthead__nav {
   margin-top: 1.6rem;
@@ -95,15 +102,25 @@ em { font-style: italic; }
 :root[data-theme="dark"] .icon-moon { display: inline; }
 
 /* ---------------- Sections ---------------- */
-.section { margin-top: 3.5rem; }
+.section { margin-top: 4.5rem; }
 .section > h2 {
-  font-size: 0.82rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 0.95rem;
   font-family: var(--mono);
-  font-weight: 400;
-  letter-spacing: 0.14em;
+  font-weight: 500;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--faint);
-  margin-bottom: 1.4rem;
+  color: var(--muted);
+  margin-bottom: 1.8rem;
+}
+.section > h2::before {
+  content: "";
+  width: 22px;
+  height: 2px;
+  background: var(--accent);
+  flex: none;
 }
 
 .prose p { margin-bottom: 1.1rem; }
@@ -131,7 +148,7 @@ em { font-style: italic; }
 /* ---------------- Publications ---------------- */
 .pubs { display: flex; flex-direction: column; gap: 1.8rem; }
 .pub__title {
-  font-size: 1.2rem;
+  font-size: 1.28rem;
   font-weight: 500;
   line-height: 1.3;
 }
@@ -264,15 +281,25 @@ code { font-family: var(--mono); }
 }
 .cv-print:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
 
-.cv-block { margin-top: 3rem; }
+.cv-block { margin-top: 3.8rem; }
 .cv-block > h2 {
-  font-size: 0.82rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 0.95rem;
   font-family: var(--mono);
-  font-weight: 400;
-  letter-spacing: 0.14em;
+  font-weight: 500;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--faint);
-  margin: 0 0 1.4rem;
+  color: var(--muted);
+  margin: 0 0 1.8rem;
+}
+.cv-block > h2::before {
+  content: "";
+  width: 22px;
+  height: 2px;
+  background: var(--accent);
+  flex: none;
 }
 .cv-entry { margin-bottom: 1.7rem; }
 .cv-entry__head {
