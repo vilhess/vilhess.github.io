@@ -11,6 +11,24 @@
   /* Publications — single source of truth */
   var PUBS = [
     {
+      year: "2025",
+      title: "PatchFM — a patch-based foundation model for zero-shot time series forecasting",
+      venue: "Foundation model · quantile predictions",
+      links: [
+        { label: "code", href: "https://github.com/vilhess/PatchFM" },
+        { label: "model card", href: "https://github.com/vilhess/PatchFM/blob/main/assets/modelcard.pdf" },
+        { label: "PyPI", href: "https://pypi.org/project/patchfm/" }
+      ],
+      html:
+        '<details class="usage" open><summary>usage example</summary>' +
+        '<pre class="code"><code><span class="c-op">!</span>pip install patchfm\n' +
+        '<span class="c-k">import</span> torch\n' +
+        '<span class="c-k">from</span> patchfm <span class="c-k">import</span> Forecaster, PatchFMConfig\n' +
+        'model = <span class="c-fn">Forecaster</span>(<span class="c-fn">PatchFMConfig</span>())  <span class="c-c"># pretrained, from HF Hub</span>\n' +
+        'seq = torch.<span class="c-fn">randn</span>(batch_size, context_size)\n' +
+        'median, quantiles = <span class="c-fn">model</span>(seq, forecast_horizon=<span class="c-num">64</span>)</code></pre></details>'
+    },
+    {
       year: "2026",
       title: "Does Normalization Choice Matter for Causal Large Time-Series Models?",
       venue: "ICLR 2026 · TSALM Workshop",
@@ -51,11 +69,12 @@
       var links = p.links.map(function (l) {
         return '<a href="' + l.href + '" target="_blank" rel="noopener">' + l.label + "</a>";
       }).join(" · ");
+      var body = p.html ? p.html : '<p class="pub__desc">' + p.desc + "</p>";
       return (
         '<article class="pub">' +
           '<h3 class="pub__title"><a href="' + p.links[0].href + '" target="_blank" rel="noopener">' + p.title + "</a></h3>" +
           '<div class="pub__meta">' + meta + " · " + links + "</div>" +
-          '<p class="pub__desc">' + p.desc + "</p>" +
+          body +
         "</article>"
       );
     }).join("");

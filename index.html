@@ -19,14 +19,18 @@
   <div class="wrap" id="top">
 
     <header class="masthead">
-      <h1>Samy-Melwan Vilhes</h1>
-      <p class="masthead__role">Ph.D student<br />
-      time series anomaly detection · time series forecasting · foundation models<br />
-      LITIS Lab, INSA Rouen</p>
+      <div class="masthead__top">
+        <div>
+          <h1>Samy-Melwan Vilhes</h1>
+          <p class="masthead__role">Ph.D student<br />
+          time series anomaly detection · time series forecasting · foundation models<br />
+          LITIS Lab, INSA Rouen</p>
+        </div>
+        <img class="masthead__photo" src="files/pic_iclr.PNG" alt="Samy-Melwan Vilhes" />
+      </div>
       <nav class="masthead__nav">
         <a href="#about">About</a>
         <a href="#news">News</a>
-        <a href="#patchfm">PatchFM</a>
         <a href="#research">Research</a>
         <a href="#sports">Sports</a>
         <a href="cv.html">CV</a>
@@ -69,27 +73,6 @@
           <div>Poster session at the <a href="https://www.hi-paris.fr" target="_blank" rel="noopener">Hi! Paris Summer School 2025</a> presenting PatchTrAD (<a href="files/poster.pdf" target="_blank" rel="noopener">poster</a>).</div>
         </li>
       </ul>
-    </section>
-
-    <!-- FOUNDATION MODEL -->
-    <section class="section" id="patchfm">
-      <h2>PatchFM · Foundation Model</h2>
-      <p class="prose">
-        <a href="https://github.com/vilhess/PatchFM" target="_blank" rel="noopener">PatchFM</a> —
-        my patch-based foundation model for zero-shot time series forecasting with quantile
-        predictions
-        (<a href="https://github.com/vilhess/PatchFM/blob/main/assets/modelcard.pdf" target="_blank" rel="noopener">model card</a>
-        · <a href="https://pypi.org/project/patchfm/" target="_blank" rel="noopener">PyPI</a>).
-      </p>
-      <pre class="code"><code><span class="c-op">!</span>pip install patchfm</code></pre>
-      <details class="usage">
-        <summary>usage example</summary>
-        <pre class="code"><code><span class="c-k">import</span> torch
-<span class="c-k">from</span> patchfm <span class="c-k">import</span> Forecaster, PatchFMConfig
-model = <span class="c-fn">Forecaster</span>(<span class="c-fn">PatchFMConfig</span>())  <span class="c-c"># pretrained, from HF Hub</span>
-seq = torch.<span class="c-fn">randn</span>(batch_size, context_size)
-median, quantiles = <span class="c-fn">model</span>(seq, forecast_horizon=<span class="c-num">64</span>)</code></pre>
-      </details>
     </section>
 
     <!-- RESEARCH -->
