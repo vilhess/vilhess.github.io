@@ -20,7 +20,7 @@
         { label: "PyPI", href: "https://pypi.org/project/patchfm/" }
       ],
       html:
-        '<details class="usage" open><summary>usage example</summary>' +
+        '<details class="usage"><summary>usage example</summary>' +
         '<pre class="code"><code><span class="c-op">!</span>pip install patchfm\n' +
         '<span class="c-k">import</span> torch\n' +
         '<span class="c-k">from</span> patchfm <span class="c-k">import</span> Forecaster, PatchFMConfig\n' +
@@ -69,7 +69,9 @@
       var links = p.links.map(function (l) {
         return '<a href="' + l.href + '" target="_blank" rel="noopener">' + l.label + "</a>";
       }).join(" · ");
-      var body = p.html ? p.html : '<p class="pub__desc">' + p.desc + "</p>";
+      var body = p.html
+        ? p.html
+        : '<details class="usage"><summary>abstract</summary><p class="pub__desc">' + p.desc + "</p></details>";
       return (
         '<article class="pub">' +
           '<h3 class="pub__title"><a href="' + p.links[0].href + '" target="_blank" rel="noopener">' + p.title + "</a></h3>" +
